@@ -190,7 +190,8 @@ public class Project extends JFrame implements ActionListener{
         
         setVisible(true);
     }
-    
+ 
+    // Refactored to switch-case to reduce cognitive complexity
 public void actionPerformed(ActionEvent ae) {
     String msg = ae.getActionCommand();
 
@@ -262,4 +263,5 @@ public void actionPerformed(ActionEvent ae) {
     }
     
 } 
+
 
